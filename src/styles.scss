@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { 
+    margin: auto; 
+    width: 90%;
+    font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.spacer {
+    flex: 1 1 auto;
+}
+
+.errorSnack {
+    background: #ce1a1a !important;
+}
+
+.successSnack {
+    background-color: #51f889 !important;
+}

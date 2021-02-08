@@ -1,0 +1,37 @@
+.toolbar {
+}
+
+table {
+    width: 100%;
+}
+
+.expanded {
+    display: flex;
+    overflow: hidden;
+}
+
+.update {
+    width: 100%;
+    background: #3f51b52b;
+}
+
+tr.detailRow {
+    height: 0;
+}
+
+tr.elementRow:not(.expandedRow):hover {
+    background: whitesmoke;
+}
+
+tr.elementRow:not(.expandedRow):active {
+    background: #efefef;
+}
+
+.elementRow td {
+    border-bottom-width: 0;
+}
+
+.cell {
+    display: flex;
+}
+
